@@ -16,5 +16,5 @@ i=0
 while i < len(columns):
     print(f"The importance of feature '{columns[i]}' is {round(importances[i] * 100,2)}%.")
     i+=1
-newTeam = [[100,100,100,100,100,100,100,100,100,100,100]]
-print(rf_model.predict(newTeam))
+#newTeam = [[100,100,100,100,100,100,100,100,100,100,100]] 
+#print(rf_model.predict(newTeam))
